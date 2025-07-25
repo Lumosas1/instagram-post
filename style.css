@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 40px;
-  margin: 0;
+  margin: 10;
 }
 
 .post-kutusu {
@@ -58,4 +58,19 @@ body {
 
 .post-icons i:hover {
   color: #007bff;
+}
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+.post-likes {
+  padding: 8px 12px;
+}
+
+.likes {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
 }
