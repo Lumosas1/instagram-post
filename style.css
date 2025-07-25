@@ -30,21 +30,11 @@ body {
   border: 1px solid #ccc;
 }
 
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
 .username {
   font-weight: bold;
   font-size: 14px;
   color: #333;
-}
-
-.time {
-  font-size: 12px;
-  color: #888;
+  margin: 0;
 }
 
 .post img {
@@ -53,24 +43,19 @@ body {
 }
 
 .post-icons {
-  font-size: 20px;
   padding: 10px;
   display: flex;
   gap: 15px;
+  background-color: #fff;
 }
 
-.likes {
-  font-weight: bold;
-  font-size: 14px;
-  padding: 0 10px;
+.post-icons i {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
 }
 
-.caption {
-  font-size: 14px;
-  padding: 5px 10px 15px;
-}
-
-.caption .username {
-  font-weight: bold;
-  margin-right: 5px;
+.post-icons i:hover {
+  color: #007bff;
 }
